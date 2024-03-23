@@ -1,0 +1,186 @@
+/* General CSS */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  background: linear-gradient(
+    to bottom,
+    #ee5801,
+    #ffff00
+  ); /* Gradient background */
+  text-align: center;
+}
+
+/* Header Part */
+/* Navigation styles */
+/*
+Comment Out Hamburger Menu first
+.hamburger-menu {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #333;
+} 
+
+.nav-hidden {
+  display: none;
+} */
+
+/*handling the logo row */
+.logoRow {
+  display: flex;
+
+  figure {
+    margin: 0.5rem;
+  }
+}
+
+.logoRowItem {
+  flex: 1;
+}
+
+.search {
+  display: flex;
+  align-items: end;
+  justify-items: start;
+  margin-bottom: 2rem;
+
+  input {
+    height: 2rem;
+    border-radius: 2rem;
+  }
+
+  button {
+    background-color: #b8451b;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    letter-spacing: 0.1rem;
+    border: none;
+  }
+
+  button:hover {
+    background-color: #ff4800;
+  }
+}
+
+.logo-container {
+  margin: 1rem;
+}
+
+/* style when menu is displayed */
+nav {
+  display: flex;
+  justify-content: center; /* Center the navigation items horizontally */
+  background-color: #ff4800;
+  /* height: 5vh; */
+  align-items: center;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display the list items horizontally */
+    flex-wrap: wrap;
+  }
+
+  li {
+    padding: 1rem 3rem;
+    flex: 1 1 auto;
+  }
+}
+
+.nav-active {
+  display: block;
+}
+
+/* Optional: Add hover effect for better visual feedback */
+.menu:hover {
+  background-color: #ff6d33;
+}
+
+.menu a:hover {
+  border-bottom: 1px yellow solid;
+}
+
+/* Main Part */
+/* Hero section styles */
+.hero-section {
+  background-image: url("../IMG/background.jpg");
+  background-size: cover; /* Expand the image to cover the entire section */
+  background-position: center; /* Center the image within the section */
+  height: 80vh; /* Set an appropriate height */
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  /* justify-content: end; */
+}
+
+/* Heading styles */
+h1 {
+  /* font-family: "Pacifico", cursive; */
+  color: white;
+  margin-bottom: 8rem;
+  /* background-color: rgba(255, 191, 3, 0.7); */
+}
+
+/* Additional styles */
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  /* Adjust the spacing between images */
+  justify-content: center; /* Center-align items horizontally */
+  align-items: center; /* Center-align items vertically */
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.text-container {
+  text-align: center; /* Center-align text */
+  margin-top: 20px; /* Set the margin between images and text */
+}
+
+/* Footer Part */
+footer {
+  background-color: #ee5801; /* Set the footer background color */
+  color: #fff; /* Set the text color to white for better visibility */
+  padding: 20px 0; /* Add padding to the top and bottom */
+  text-align: center; /* Center-align the text */
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center-align the related links horizontally */
+}
+
+footer li {
+  margin-right: 20px; /* Add margin between related links */
+  margin-bottom: 10px; /* Add margin below each related link */
+}
+
+.footerRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footerRowItem {
+  padding: 1rem;
+  text-align: left;
+  flex: 1 1 max(30%, 400px);
+}
