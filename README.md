@@ -1,7 +1,10 @@
 # Selling-Out!
 
-Credit:
+Author: Masashi Maruyama, Cristian Vera, Jacky Woo
 
+Link to the [Live Site](https://jackywooks.github.io/Selling-Out/)
+
+Credit:
 Icon
 <a href="https://www.flaticon.com/free-icons/dumpling" title="dumpling icons">Dumpling icons created by vectorsmarket15 - Flaticon</a>
 
