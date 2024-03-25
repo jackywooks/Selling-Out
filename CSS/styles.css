@@ -104,6 +104,8 @@ nav {
   li {
     padding: 1rem 3rem;
     flex: 1 1 auto;
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -118,6 +120,19 @@ nav {
 
 .menu a:hover {
   border-bottom: 1px yellow solid;
+}
+
+@media screen and (max-width: 600px) {
+  .search input[type="search"],
+  .search,
+  .search button,
+  nav li,
+  .search form,
+  .logoRow {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
 }
 
 /* Main Part */
