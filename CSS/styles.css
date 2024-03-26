@@ -16,25 +16,6 @@ body {
 
 /* Header Part */
 /* Navigation styles */
-/*
-Comment Out Hamburger Menu first
-.hamburger-menu {
-  cursor: pointer;
-  display: inline-block;
-}
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  background-color: #333;
-} 
-
-.nav-hidden {
-  display: none;
-} */
-
 /*handling the logo row */
 .logoRow {
   display: flex;
@@ -90,7 +71,6 @@ nav {
   display: flex;
   justify-content: center; /* Center the navigation items horizontally */
   background-color: #ff4800;
-  /* height: 5vh; */
   align-items: center;
 
   ul {
@@ -106,11 +86,12 @@ nav {
     flex: 1 1 auto;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 }
 
-.nav-active {
-  display: block;
+.hamburger-hidden {
+  display: none;
 }
 
 /* Optional: Add hover effect for better visual feedback */
@@ -122,16 +103,34 @@ nav {
   border-bottom: 1px yellow solid;
 }
 
+/* Media Query to control when screen size is less than 600px */
 @media screen and (max-width: 600px) {
   .search input[type="search"],
   .search,
   .search button,
-  nav li,
   .search form,
   .logoRow {
     display: block;
     width: 100%;
     margin: 0;
+  }
+
+  .nav-hidden {
+    display: none;
+  }
+
+  .nav-active {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .nav-active {
+    display: flex;
+    justify-content: center; /* Center the navigation items horizontally */
+    align-items: center;
   }
 }
 
