@@ -1,4 +1,5 @@
 // Use JavaScript to toggle the display/hide of the hamburger menu
+const hamburgerMenu = document.querySelector(".hamburger-menu");
 const navMenu = document.getElementById("nav_menu");
 const menu = document.querySelector("nav ul");
 
