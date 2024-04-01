@@ -23,6 +23,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <!-- Material Icon from Google -->
+    <!--Search Icon -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- hamburger Icon -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <!-- Title of the webpage -->
     <title>Dumpling Store</title>
 </head>
@@ -37,19 +44,18 @@
             <div class="search logoRowItem">
                 <form action="/search" method="get">
                     <input type="search" name="q" placeholder="Search...">
-                    <button type="submit">Search</button>
+                    <button type="submit"><span class="material-symbols-outlined">
+                            search
+                        </span></button>
+                    <button class="hamburger-menu hamburger-hidden" type="button"><span
+                            class="material-symbols-outlined">
+                            menu
+                        </span></button>
                 </form>
             </div>
         </div>
-
         <!-- Navigation menu with links to different pages -->
-        <!-- Hide the hamburger menu first
-        <div class="hamburger-menu">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div> -->
-        <nav id="nav_menu">
+        <nav id="nav_menu" class="nav-hidden">
             <ul>
                 <li class="menu"><a href="index.html">Home</a></li>
                 <li class="menu"><a href="aboutus.html">About Us</a></li>
@@ -62,7 +68,9 @@
     </header>
     <main>
         <section class="hero-section">
-            <h1>"Welcome to the world of delicious dumplings"</h1>
+            <div class="slogan">
+                <h1>"Welcome to the world of delicious dumplings"</h1>
+            </div>
         </section>
         <section>
             <div class="wiper">
@@ -121,13 +129,16 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="footerRowItem">
-                <h2>Related Links</h2>
+                <h2>Related Links:</h2>
                 <!-- Link of other web site -->
                 <ul>
                     <li class="Related"><a href="https://www.justonecookbook.com/gyoza/">What is Gyoza?</a></li>
                     <li class="Related"><a
                             href="https://www.recipetineats.com/gyoza-japanese-dumplings-potstickers/">Gyoza
-                            recipe</a></li>
+                            Recipe</a></li>
+                    <li class="Related"><a href="https://en.wikipedia.org/wiki/Jiaozi#Gy%C5%8Dza"><img height="10rem"
+                                src="https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg"
+                                alt="wiki"> of Gyoza</a></li>
                 </ul>
             </div>
         </div>

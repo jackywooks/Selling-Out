@@ -1,4 +1,9 @@
-// // Use JavaScript to toggle the display/hide of the hamburger menu
-// document.querySelector('.hamburger-menu').addEventListener('click', function() {
-//     document.getElementById('nav_menu').classList.toggle('nav-active');
-// });
+// Use JavaScript to toggle the display/hide of the hamburger menu
+const hamburgerMenu = document.querySelector(".hamburger-menu");
+const navMenu = document.getElementById("nav_menu");
+const menu = document.querySelector("nav ul");
+
+hamburgerMenu.addEventListener("click", function () {
+  navMenu.classList.toggle("nav-active");
+  menu.classList.toggle("nav-active");
+});
