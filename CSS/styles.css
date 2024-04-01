@@ -210,12 +210,70 @@ footer li {
 }
 
 /* About Us */
-td img {
-  height: 300px;
-  width: 100%;
+section.au{
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 20px;
+  background-color: #FFAF45;
+  padding: 20px 50px;
+  text-align: left;
+  color: #333;
 }
 
+#map{
+  width:100%;
+}
+
+/* Table Styling */
 table {
+  background-color: white;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
+
+th{
+  background-color: #EE5901;
+  color:white;
+}
+
+th, td {
+  padding: 8px;
+  height: 100px;
+}
+
+th.country, th.illustration{
+  width: 50%;
+}
+
+td figure{
+  margin: 0;
+}
+
+td.illustration img {
+  width: 50%;
+}
+
+td.country img{
+  border: 1px black solid;
+  width: 50%;
+  margin-right: 10px;
+}
+
+td.country.no_border img{
+  border:0;
+}
+
+td.country p{
+  font-weight: 500;
+}
+
+td figcaption{
+  background-color: grey;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+
