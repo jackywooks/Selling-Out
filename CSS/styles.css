@@ -147,11 +147,14 @@ nav {
   /* justify-content: end; */
 }
 
+.slogan {
+  margin-bottom: 8rem;
+}
+
 /* Heading styles */
 h1 {
   /* font-family: "Pacifico", cursive; */
   color: white;
-  margin-bottom: 8rem;
   /* background-color: rgba(255, 191, 3, 0.7); */
 }
 
@@ -204,4 +207,15 @@ footer li {
   padding: 2rem;
   text-align: center;
   flex: 1 1 max(30%, 400px);
+}
+
+/* About Us */
+td img {
+  height: 300px;
+  width: 100%;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
 }
