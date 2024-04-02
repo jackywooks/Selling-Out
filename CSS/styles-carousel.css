@@ -27,8 +27,8 @@
 }
 .wiper-button {
   margin: 0 1rem;
-  height: 70px;
-  width: 45px;
+  height: 15%;
+  width: auto;
   position: absolute;
   top: 50%;
   background: transparent;
@@ -37,14 +37,14 @@
   z-index: 1;
 }
 .wiper-button__left {
-  right: 0;
+  right: 10%;
   transform: translateY(-50%) rotate(180deg);
 }
 .wiper-button__right {
-  left: 0;
+  left: 10%;
   transform: translateY(-50%);
 }
-.wiper__image-button {
+/* .wiper__image-button {
   right: 50%;
   top: 50%;
   position: absolute;
@@ -55,9 +55,9 @@
   font-size: 1.4rem;
   transform: translateY(-50%) translateX(50%);
   cursor: pointer;
-}
+} */
 .wiper-wrapper {
-  max-width: 70%;
+  max-width: 62%;
   overflow: hidden;
   padding: 2rem 0.5rem;
   margin: 0 auto;
