@@ -2,30 +2,29 @@
     width:100%;
     height:50%;
     margin-bottom: 2%;
-    /* border:rgb(228, 162, 82); */
     
-    border-radius: 6%;
-    
+    border-radius: 6%; 
 }
+
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+    
     padding-right: 10%;
     padding-left: 10%;
     
 }
 .card {
-    width:30%;
+    width:28%;
     height: 58vh;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     padding:1%;  
-    margin: 2% 1%;
-
+    margin: 2% 1.5%;
+    
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);  /* deep-side   deep-up-down   blurring   (color&intensity)*/
     background-color: rgb(249, 232, 172);
     border-radius: 6%;
@@ -38,12 +37,13 @@
 
 fieldset {
 	border: 1px solid #983916;;
-	margin-top: 1em;
+	margin-top: 0.2em;
     border-radius: 5%;
     transform: scale(0.95);
     opacity: 0.6;
     transition: transform 0.6s ease; 
 }
+
 fieldset:hover{
     opacity: 1;
     transform: scale(1.05);
@@ -53,20 +53,18 @@ p{
     margin: 0; 
     padding: 0; 
     font-size: 0.8rem; 
-    font-style: normal;
     color: #983916;
 }
 
 .checkbox{
     display:flex;
     flex-wrap: wrap;
-    
-    margin-bottom: 4%;
+    margin-bottom: 3%;
 }
 .checkbox2{
     display:flex;
     flex-wrap: wrap;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
     
 }
 button{
