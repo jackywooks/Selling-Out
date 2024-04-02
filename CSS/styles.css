@@ -239,10 +239,16 @@ th{
 
 th, td {
   padding: 8px;
-  height: 100px;
+  height: 50px;
 }
 
-th.country, th.illustration{
+tr:hover {background-color: #ddd;}
+
+th.country, th.name {
+  width: 25%;
+}
+
+th.illustration{
   width: 50%;
 }
 
@@ -252,6 +258,21 @@ td figure{
 
 td.illustration img {
   width: 50%;
+  margin-bottom: 20px;
+}
+
+td.name p{
+  font-size: 5vw;
+  font-family: serif;
+  font-weight: 400;
+}
+
+td.name.long p{
+  font-size: 4vw;
+}
+
+td.name.longer p{
+  font-size: 3vw;
 }
 
 td.country img{
@@ -269,8 +290,8 @@ td.country p{
 }
 
 td figcaption{
-  background-color: grey;
-  color: white;
+  /* background-color: grey; */
+  color: black;
   font-style: italic;
   padding: 2px;
   text-align: center;

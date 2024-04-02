@@ -23,11 +23,13 @@ https://www.byfood.com/blog/culture/gyoza
 
 Dumpling in the World:
 https://guide.michelin.com/en/article/features/%E4%B8%96%E7%95%8C%E5%90%84%E5%9C%B0%E7%9A%84%E9%A4%83%E5%AD%90
+https://travel.earth/try-these-35-delicious-types-of-dumplings-around-the-world/
 
 Photos From:
 https://guide.michelin.com/en/article/features/%E4%B8%96%E7%95%8C%E5%90%84%E5%9C%B0%E7%9A%84%E9%A4%83%E5%AD%90
 https://en.wikipedia.org/wiki/File:Maultaschensuppe.jpg
 https://www.196flavors.com/wp-content/uploads/2020/06/vareniki-2.jpeg
+https://delishkitchen.tv/articles/1792
 
 World Dumpling Map:
 https://www.ajinomoto.com/cms_wp_ajnmt_global/wp-content/uploads/stories/JPG/Gyoza-map-1.jpg
