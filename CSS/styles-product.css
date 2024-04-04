@@ -18,6 +18,7 @@
 .card {
     width:28%;
     height: 58vh;
+    justify-content: space-evenly;
 
     display: flex;
     flex-direction: column;
