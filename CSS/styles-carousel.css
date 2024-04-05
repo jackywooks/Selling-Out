@@ -44,31 +44,21 @@
   left: 10%;
   transform: translateY(-50%);
 }
-/* .wiper__image-button {
-  right: 50%;
-  top: 50%;
-  position: absolute;
-  padding: 0.8rem 1rem;
-  border-radius: 3px;
-  background-color: white;
-  border: none;
-  font-size: 1.4rem;
-  transform: translateY(-50%) translateX(50%);
-  cursor: pointer;
-} */
+
 .wiper-wrapper {
   max-width: 62%;
   overflow: hidden;
   padding: 2rem 0.5rem;
   margin: 0 auto;
 }
-.swiper__image-button {
+a.image-button {
   right: 50%;
   top: 50%;
   position: absolute;
   padding: 0.8rem 1rem;
-  border-radius: 3px;
-  background-color: white;
+  border-radius: 8px;
+  background-color: rgba(0,0,0,0.4);
+  color:white;
   border: none;
   font-size: 1rem;
   transform: translateY(-50%) translateX(50%);
@@ -86,7 +76,8 @@
 
 @media screen and (max-width: 768px) {
   .wiper__image {
-    width: 85%; 
+    width: 80%; 
+    height:90%;
   }
 }
 .is-hidden {
