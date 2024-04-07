@@ -65,37 +65,36 @@
         </nav>
         <!-- Title container with the main heading and images -->
     </header>
-    <main> 
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form - Gyoza Sales</title>
-</head>
-<body>
-    <h1>Contact Us - Order Your Delicious Gyoza!</h1>
-    <form action="submit.php" method="post">
-        <label for="name">Your Name:</label><br>
-        <input type="text" id="name" name="name" required><br>
+    <main>
+        <div class="feedback-container">
+            <h2>Feedback Form</h2>
+            <p>This form is for receiving feedback and suggestions from customers. Please use a separate form for
+                inquiries related to orders.</p>
+            <p>Please fill in the required information in the form below and click the submit button.</p>
+        </div>
+        <form action="submit_feedback.html" method="post">
+            <label for="name">Name (required):</label><br>
+            <input type="text" id="name" name="name" required><br>
 
-        <label for="email">Your Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
+            <label for="email">Email Address (required):</label><br>
+            <input type="email" id="email" name="email" required><br>
 
-        <label for="phone">Your Phone Number:</label><br>
-        <input type="tel" id="phone" name="phone" required><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br>
 
-        <label for="quantity">Quantity (in dozens):</label><br>
-        <input type="number" id="quantity" name="quantity" min="1" required><br>
+            <label for="category">Inquiry Type:</label><br>
+            <select id="category" name="category">
+                <option value="Feedback">Feedback</option>
+                <option value="Suggestions">Suggestions</option>
+                <option value="Complaints">Complaints</option>
+                <option value="Others">Others</option>
+            </select><br>
 
-        <label for="message">Additional Requests:</label><br>
-        <textarea id="message" name="message"></textarea><br>
+            <label for="message">Feedback or Suggestions (required):</label><br>
+            <textarea id="message" name="message" required></textarea><br>
 
-        <input type="submit" value="Place Order">
-    </form>
-</body>
-</html>
-
+            <input type="submit" value="Submit">
+        </form>
     </main>
     <footer>
         <p>&copy; Dumpling Store</p>

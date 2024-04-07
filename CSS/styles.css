@@ -298,3 +298,62 @@ td figcaption{
 }
 
 
+
+/* contact */
+
+/* Feedback Section */
+.feedback-container {
+  background-color: #f5deb3;
+  border: 2px solid #a0522d;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.feedback-container p {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Styles for form elements */
+label {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px; /* Adjust margin between labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%; /* Make input elements fill the container width */
+  padding: 8px;
+  margin: 5px auto; /* Center elements horizontally */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  text-align: center; /* Center-align text */
+}
+
+select {
+  text-align-last: center; /* Center-align text in select element */
+}
+
+input[type="submit"] {
+  width: auto; /* Adjust width to fit content */
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
