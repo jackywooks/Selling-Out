@@ -378,22 +378,26 @@ input[type="submit"]:hover {
     letter-spacing: 0.1rem;
   }
 
-  input {
+  input,
+  textarea {
     margin-top: 0.1rem;
     border: 2px solid #000;
     margin-bottom: 5px;
     border-radius: 5px;
   }
 
-  input:focus {
+  input:focus,
+  textarea:focus {
     border: 3px solid #555;
   }
 
-  input:invalid {
+  input:invalid,
+  textarea:invalid {
     border-color: red;
   }
 
-  input:valid {
+  input:valid,
+  textarea:valid {
     border-color: green;
   }
 }
