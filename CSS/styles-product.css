@@ -80,7 +80,7 @@ fieldset:hover {
   transform: scale(0.95);
 }
 
-p {
+.card p {
   margin: 0;
   padding: 0;
   font-size: 0.8rem;
