@@ -1,74 +1,73 @@
 .container {
-    position: relative;
-    display: grid;
-    
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    justify-content: center;
-    padding-right: 15%;
-    padding-left: 15%;
+  position: relative;
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  justify-content: center;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 .card {
-    position: relative;
-    width:90%;
-    height: 43vh;
-    justify-content: space-evenly;
-    padding: 1%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden; 
-    margin: 3%;
-    
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);  /* deep-side   deep-up-down   blurring   (color&intensity)*/
-    background-color: rgb(249, 232, 172);
-    border-radius: 6%;
+  position: relative;
+  width: 90%;
+  height: 43vh;
+  justify-content: space-evenly;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  margin: 3%;
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* deep-side   deep-up-down   blurring   (color&intensity)*/
+  background-color: rgb(249, 232, 172);
+  border-radius: 6%;
 }
 
 .card:hover {
-    background-color:  rgb(253, 248, 201); 
+  background-color: rgb(253, 248, 201);
 }
 
 .img {
-    object-fit: cover;
-    width:95%;
-    height:50%;
-    margin-bottom: 47%;
-    z-index: 1; 
-    border-radius: 6%; 
-    position: absolute;
-    top: 3%;
-    opacity: 1;
+  object-fit: cover;
+  width: 95%;
+  height: 50%;
+  margin-bottom: 47%;
+  z-index: 1;
+  border-radius: 6%;
+  position: absolute;
+  top: 3%;
+  opacity: 1;
 
-    transition: all 0.5s ease;
-   
+  transition: all 0.5s ease;
 }
 
-.img:hover{
-    filter:contrast(40%);
-    opacity: 0.4;
+.img:hover {
+  filter: contrast(40%);
+  opacity: 0.4;
 }
 
-.text{
-    font-family: "Bree Serif", serif;
-    font-size: 1em;
-    max-width: 95%;
-    /* max-height: 70%; */
-    margin-top: 11%; 
-    color: #842908;
-    font-weight: bolder;
-    transition: color 0.5s ease;
-    z-index: 0; 
+.text {
+  font-family: "Bree Serif", serif;
+  font-size: 1em;
+  max-width: 95%;
+  /* max-height: 70%; */
+  margin-top: 11%;
+  color: #842908;
+  font-weight: bolder;
+  transition: color 0.5s ease;
+  z-index: 0;
 }
 
 fieldset {
-    margin-top: 8%;
-	border: 0.5px solid hsl(16, 75%, 34%);;
-	
-    border-radius: 8px;
-    transform: scale(0.90);
-    opacity: 0.6;
-    transition: transform 0.6s ease; 
+  margin-top: 15%;
+  border: 0.5px solid hsl(16, 75%, 34%);
+
+  border-radius: 8px;
+  transform: scale(0.9);
+  opacity: 0.6;
+  transition: transform 0.6s ease;
 }
 
 /* @media screen and (max-width: 800px) {
@@ -76,65 +75,61 @@ fieldset {
         margin-top: 30%; 
     }
 } */
-fieldset:hover{
-    opacity: 1;
-    transform: scale(0.95);
+fieldset:hover {
+  opacity: 1;
+  transform: scale(0.95);
 }
 
-p{
-    margin: 0; 
-    padding: 0; 
-    font-size: 0.8rem; 
-    color: #983916;
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem;
+  color: #983916;
 }
 
-.checkbox{
-    display:flex;
-    flex-wrap: wrap;
-    margin-bottom: 3%;
+.checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3%;
 }
 
-.checkbox #quantity{   /****************************/
-    width: 40%;
-    margin: 0% 3%;
-    padding:0;
+.checkbox #quantity {
+  /****************************/
+  width: 40%;
+  margin: 0% 3%;
+  padding: 0;
 }
 
-.checkbox2{
-    display:flex;
-    flex-wrap: wrap;
-    margin-bottom: 3%; 
+.checkbox2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3%;
 }
 
-.price{
-    vertical-align:text-top;
-    font-size: 70%;
-    font-weight:900;
-    
+.price {
+  vertical-align: text-top;
+  font-size: 70%;
+  font-weight: 900;
 }
 
-.price2{
-    vertical-align:middle;
-    font-size: 130%;
-    font-weight:900;
-    
+.price2 {
+  vertical-align: middle;
+  font-size: 130%;
+  font-weight: 900;
 }
-.quantity{
-    font-size:x-small;
-    margin-left: 0%;
-}
-
-.button2{
-    
-    float: right;
-    border-radius: 20px;
-    height: 75%; 
-    background-color: #ff4800;
-    color:white;
-    border: none;
-    font-weight: bold;
-    margin-top: 1%;
-    font-size: 0.9em;
-
+.quantity {
+  font-size: x-small;
+  margin-left: 0%;
 }
 
+.button2 {
+  float: right;
+  border-radius: 20px;
+  height: 75%;
+  background-color: #ff4800;
+  color: white;
+  border: none;
+  font-weight: bold;
+  margin-top: 1%;
+  font-size: 0.9em;
+}

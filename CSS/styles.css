@@ -210,18 +210,18 @@ footer li {
 }
 
 /* About Us */
-section.au{
+section.au {
   margin: 20px auto;
   width: 80%;
   border-radius: 20px;
-  background-color: #FFAF45;
+  background-color: #ffaf45;
   padding: 20px 50px;
   text-align: left;
   color: #333;
 }
 
-#map{
-  width:100%;
+#map {
+  width: 100%;
 }
 
 /* Table Styling */
@@ -232,27 +232,31 @@ table {
   text-align: center;
 }
 
-th{
-  background-color: #EE5901;
-  color:white;
+th {
+  background-color: #ee5901;
+  color: white;
 }
 
-th, td {
+th,
+td {
   padding: 8px;
   height: 50px;
 }
 
-tr:hover {background-color: #ddd;}
+tr:hover {
+  background-color: #ddd;
+}
 
-th.country, th.name {
+th.country,
+th.name {
   width: 25%;
 }
 
-th.illustration{
+th.illustration {
   width: 50%;
 }
 
-td figure{
+td figure {
   margin: 0;
 }
 
@@ -261,35 +265,35 @@ td.illustration img {
   margin-bottom: 20px;
 }
 
-td.name p{
+td.name p {
   font-size: 5vw;
   font-family: serif;
   font-weight: 400;
 }
 
-td.name.long p{
+td.name.long p {
   font-size: 4vw;
 }
 
-td.name.longer p{
+td.name.longer p {
   font-size: 3vw;
 }
 
-td.country img{
+td.country img {
   border: 1px black solid;
   width: 50%;
   margin-right: 10px;
 }
 
-td.country.no_border img{
-  border:0;
+td.country.no_border img {
+  border: 0;
 }
 
-td.country p{
+td.country p {
   font-weight: 500;
 }
 
-td figcaption{
+td figcaption {
   /* background-color: grey; */
   color: black;
   font-style: italic;
@@ -297,17 +301,14 @@ td figcaption{
   text-align: center;
 }
 
-
-
 /* contact */
 
 /* Feedback Section */
 
 .contactIMG {
   padding: 0 20px;
-  background-color: white; 
+  background-color: white;
 }
-
 
 .feedback-container {
   background-color: #f5deb3;
@@ -322,7 +323,6 @@ td figcaption{
   margin: 0;
   padding: 0;
 }
-
 
 /* Styles for form elements */
 label {
@@ -352,7 +352,7 @@ select {
 
 input[type="submit"] {
   width: auto; /* Adjust width to fit content */
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -364,3 +364,9 @@ input[type="submit"]:hover {
   background-color: #45a049;
 }
 
+#feedbackForm {
+  padding: 0 20%;
+
+  #message {
+  }
+}

@@ -71,14 +71,14 @@
         <section class="contactIMG">
             <img src="./IMG/dumpling-10.png" alt="Hero Image">
         </section>
-        
+
         <div class="feedback-container">
             <h2>Feedback Form</h2>
             <p>This form is for receiving feedback and suggestions from customers. Please use a separate form for
                 inquiries related to orders.</p>
             <p>Please fill in the required information in the form below and click the submit button.</p>
         </div>
-        <form action="submit_feedback.html" method="post">
+        <form action="submit_feedback.html" method="get" id="feedbackForm">
             <label for="name">Name (required):</label><br>
             <input type="text" id="name" name="name" required><br>
 
@@ -97,7 +97,7 @@
             </select><br>
 
             <label for="message">Feedback or Suggestions (required):</label><br>
-            <textarea id="message" name="message" required></textarea><br>
+            <textarea id="message" name="message" rows="10" cols="5" required></textarea><br>
 
             <input type="submit" value="Submit">
         </form>
@@ -107,7 +107,7 @@
         <div class="footerRow">
             <div class="footerRowItem">
                 <h2>Contact us:</h2>
-                <a href="tel:+81662130400">Phone: +81662130400</a> <br>
+                <a href="tel:+81662130400">Phone: +123812938213</a> <br>
                 <a href="mailto:contact@dumplingStore.com">contact@dumplingStore.com</a>
                 <p>Office Hour:<br>
                     From Monday to Friday between 9am-6pm
