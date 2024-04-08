@@ -302,6 +302,13 @@ td figcaption{
 /* contact */
 
 /* Feedback Section */
+
+.contactIMG {
+  padding: 0 20px;
+  background-color: white; 
+}
+
+
 .feedback-container {
   background-color: #f5deb3;
   border: 2px solid #a0522d;
